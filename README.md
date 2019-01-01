@@ -56,7 +56,7 @@ pytext export --output-path exported_model.c2 < config.json
 使用模型：
 
 ```bash
-python run_model.py
+python run_model.py config.json exported_model.c2
 ```
 
 用完退出虚拟环境：
