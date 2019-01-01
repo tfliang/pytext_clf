@@ -35,7 +35,9 @@ pip install jieba
 pytext train < config.json
 ```
 
-这个过程大概要一顿午饭的时间，因为我上传了我训练好的模型，如果想直接运行可以直接跳到使用模型部分。这里使用的config.json是pytext的demo里提供的<sup>[5]</sup>，未调参。
+这个过程大概要一顿午饭的时间，因为我上传了我训练好的模型，如果不想等，可以直接跳到使用模型部分。
+
+这里使用的config.json是pytext的demo里提供的<sup>[5]</sup>配置，使用双向LSTM+Attention模型，未调参。
 
 测试：
 
@@ -69,7 +71,11 @@ deactivate
 ## 参考资料
 
 [1] https://github.com/facebookresearch/fastText
+
 [2] https://arxiv.org/abs/1812.08729
+
 [3] http://www.nsfc.gov.cn/publish/portal0/tab226/
+
 [4] http://npd.nsfc.gov.cn/protype.action
+
 [5] https://github.com/facebookresearch/pytext/blob/master/demo/configs/sst2.json
